@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .main-content {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  /* styles.css */
+
+.download-part {
+    display: none;
+  }
+  
+  /* Add other styles as needed */
+  
